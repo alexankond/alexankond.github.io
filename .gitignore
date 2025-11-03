@@ -1,0 +1,4 @@
+# IDE: WebStorm / IntelliJ
+.idea/
+# Jekyll или другой статический генератор
+_site/
