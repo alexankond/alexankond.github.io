@@ -1,0 +1,8 @@
+<header class="page-header">
+    <h1> Сайт Александра Кондратьева
+        {% if page.url != "/" %}
+            - {{ page.h1 }}
+        {% endif %}
+    </h1>
+    {% include navigation.html %}
+</header>
